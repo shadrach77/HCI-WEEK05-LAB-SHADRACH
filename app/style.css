@@ -59,7 +59,27 @@ div main {
   align-items: center;
   width: 1000px;
   padding: 15px;
-  background-color: #606c38;
+  background: hsla(88, 38%, 15%, 1);
+
+  background: linear-gradient(
+    180deg,
+    hsla(88, 38%, 15%, 1) 0%,
+    hsla(74, 32%, 32%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    180deg,
+    hsla(88, 38%, 15%, 1) 0%,
+    hsla(74, 32%, 32%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    180deg,
+    hsla(88, 38%, 15%, 1) 0%,
+    hsla(74, 32%, 32%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#283618", endColorstr="#606C38", GradientType=1 );
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
